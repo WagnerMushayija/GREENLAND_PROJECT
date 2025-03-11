@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen">
       <Image
-        src="/hero-3.jpg"
+        src="/hero-4.jpg"
         alt="Aerial view of Greenland Plaza"
         layout="fill"
         objectFit="cover"
