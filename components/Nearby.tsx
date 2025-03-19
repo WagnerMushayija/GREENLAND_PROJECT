@@ -46,7 +46,7 @@ export default function Nearby() {
   }, []) // Empty dependency array to ensure the effect runs only once
 
   return (
-    <section id="nearby" className="py-20">
+    <section id="nearby" className="py-20 relative z-0">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -57,7 +57,7 @@ export default function Nearby() {
           Nearby Attractions
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div id="map" className="h-96 rounded-lg shadow-md"></div>
+          <div id="map" className="h-96 rounded-lg shadow-md relative z-0"></div>
           <div>
             <ul className="space-y-4">
               <li className="flex items-center space-x-2">
